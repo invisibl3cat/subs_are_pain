@@ -11,7 +11,8 @@ the text to be displayed in the video and places it in a MLT playlist.
 The suggested workflow is:
 - Create images with the text
 - Create an SRT file to match up times in a video to the images. The "text" in
-  the SRT file should be a path to the image
+  the SRT file should be a path to the image.
+  You can use either relative or absolute paths to the images.
 - Run the script like this
 
 ```
